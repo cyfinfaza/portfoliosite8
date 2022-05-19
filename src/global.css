@@ -1,0 +1,19 @@
+.horizPanel {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+}
+
+.horizPanel>* {
+	margin: 0;
+}
+
+.vertiPanel {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.vertiPanel>* {
+	margin: 0;
+}
