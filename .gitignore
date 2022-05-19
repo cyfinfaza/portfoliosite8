@@ -6,4 +6,4 @@ node_modules
 .env
 .env.*
 !.env.example
-src/data/sites.json
+/src/data/sites.json

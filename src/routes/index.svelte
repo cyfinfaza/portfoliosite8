@@ -38,8 +38,11 @@
 				>
 			</div>
 		</div>
-		{#each sites as site, index}
-			<Site {site} {index} />
+		{#each Object.keys(sites) as site, index}
+			<Site site={{
+				title: site,
+				...sites[site]
+			}} {index} />
 		{/each}
 	</div>
 </div>
@@ -64,7 +67,7 @@
 		a {
 			padding: 12px;
 			border-radius: 8px;
-			border: 1px solid #222;
+			border: 1px solid #282828;
 			text-decoration: none;
 			display: flex;
 			align-items: center;
@@ -75,7 +78,7 @@
 				height: 1.5em;
 			}
 			&:hover {
-				background: #111;
+				background: #181818;
 				transform: translateY(-2px);
 			}
 		}
