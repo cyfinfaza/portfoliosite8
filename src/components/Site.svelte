@@ -4,7 +4,7 @@
 </script>
 
 <a class="site" style={`animation-delay: ${500 + index * 25}ms`} href={'https://' + site.site}>
-	<img src={`https://sss-bb2.vercel.app/${site.site}.png`} alt="" />
+	<img src={`https://sss2.cy2.me/${site.site}.png`} alt="" />
 	<div class="siteDescription">
 		<div class="iconLink">
 			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">

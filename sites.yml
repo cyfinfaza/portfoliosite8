@@ -1,63 +1,66 @@
 sc4hfair:
   site: sc4hfair.vercel.app
   desc: The Somerset County 4-H Fair App, hoping to be deployed in summer 2022...
-codetools:
-  site: codetools.cy2.me
-  desc: A coding challenge platform build for my AP CS teacher during COVID
-poptrig:
-  site: poptrig.cy2.me
-  desc: A trig practice game to improve your trig consistency in Mr. Boop's AP Calc AB class.
-courses:
-  site: learn.cy2.me
-  desc: An unfinished platform for building web development courses
-nanote:
-  site: nanote.cy2.me
-  desc: A simple, stateless music server and mobile-ready client
+1word:
+  site: 1word.cy2.me
+  desc: A one word typing test written in Vue
+ti84:
+  site: ti84.cy2.me
+  desc: An online TI-84 Plus CE emulator
 speedslope:
   site: speedslope.cy2.me
   desc: A minimalistic 3D slope game written in Unity
+poptrig:
+  site: poptrig.cy2.me
+  desc: A trig practice game to improve your trig consistency in Mr. Boop's AP Calc AB class.
+browse:
+  site: browse.cy2.me
+  desc: An in-browser proxy for accessing blocked websites
 type:
   site: type.cy2.me
   desc: A typing test written in Svelte that pulls samples from oracle.cy2.me
+blackjack:
+  site: blackjack.apcs2021.tk
+  desc: A React Blackjack game written with my friend for my 2021 AP CS final project
+apcs2021:
+  site: apcs2021.tk
+  desc: A compilation of all the 2021 Ridge AP CS final projects
+nanote:
+  site: nanote.cy2.me
+  desc: A simple, stateless music server and mobile-ready client
+ytdl:
+  site: ytdl.cy2.me
+  desc: A frontend and API for the youtube_dl Python library, providing easy downloads
 ridgehacks:
   site: ridgehacks.us
   desc: The website for RidgeHacks 2022, my high school's hackathon
 catjam:
   site: catjam-leaderboard.vercel.app
   desc: The online leaderboard for a Unity game my friend made
-apcs2021:
-  site: apcs2021.tk
-  desc: A compilation of all the 2021 Ridge AP CS final projects
+courses:
+  site: learn.cy2.me
+  desc: An unfinished platform for building web development courses
 hx:
   site: hx.cy2.me
   desc: A collection of random HTML experiments
-browse:
-  site: browse.cy2.me
-  desc: An in-browser proxy for accessing blocked websites
-ytdl:
-  site: ytdl.cy2.me
-  desc: A frontend and API for the youtube_dl Python library, providing easy downloads
+codetools:
+  site: codetools.cy2.me
+  desc: A coding challenge platform build for my AP CS teacher during COVID
 4hcomputers:
   site: 4hcomputers.club
   desc: The website for the 4-H Computer Club in Somerset County
-blackjack:
-  site: blackjack.apcs2021.tk
-  desc: A React Blackjack game written with my friend for my 2021 AP CS final project
-ti84:
-  site: ti84.cy2.me
-  desc: An online TI-84 Plus CE emulator
-1word:
-  site: 1word.cy2.me
-  desc: A one word typing test written in Vue
 anylyrics:
   site: anylyrics.cy2.me
   desc: An AI-powered web scraper for fetching song lyrics that runs on IBM Functions
-playtools:
-  site: playtools.cy2.me
-  desc: A website that allows you to create share links and track watch time for YouTube videos
 connect4:
   site: connect4.cy2.me
   desc: A buggy Connect 4 game I built to learn about WebSockets
 oracle:
   site: oracle.cy2.me
   desc: A random message from the oracle (try "/api")
+playtools:
+  site: playtools.cy2.me
+  desc: A website that allows you to create share links and track watch time for YouTube videos
+portfoliosite6:
+  site: ps6.cy2.me
+  desc: The 2nd major iteration of my portfolio site (currently viewing the 3rd iteration)
