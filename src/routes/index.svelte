@@ -4,6 +4,17 @@
 	console.log(sites);
 </script>
 
+<svelte:head>
+	<title>Cy</title>
+	<meta name="description"
+		content="Hi, I'm Cy. This is my landing page where you can find all my web projects.">
+	<meta property="og:title" content="Cy">
+	<meta property="og:site_name" content="Cy's Portfolio">
+	<meta property="og:description"
+		content="Hi, I'm Cy. This is my landing page where you can find all my web projects.">
+	<meta property="og:image" content="https://cy2.me/c_general_192.png">
+</svelte:head>
+
 <div class="container">
 	<div class="sites">
 		<div class="header vertiPanel">
