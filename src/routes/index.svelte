@@ -29,7 +29,11 @@
 				<img src="/c_general.svg" style="width: min(100px, 45%);" alt="" />
 				<div class="vertiPanel">
 					<h1>Hi, I'm Cy.</h1>
-					<p>It's nice to meet you! Check out some of my projects&nbsp;&rarr;</p>
+					<p>
+						It's nice to meet you! Check out some of my projects&nbsp;<span class="gt-800px"
+							>&rarr;</span
+						><span class="lt-800px">&darr;</span>
+					</p>
 				</div>
 			</div>
 			<div class="buttons">
@@ -126,6 +130,17 @@
 	@media screen and (max-width: 375px) {
 		.buttons > a {
 			flex-direction: column;
+		}
+	}
+	.lt-800px {
+		display: none;
+	}
+	@media screen and (max-width: 800px) {
+		.lt-800px {
+			display: unset;
+		}
+		.gt-800px {
+			display: none;
 		}
 	}
 	.sites {
