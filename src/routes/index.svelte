@@ -1,25 +1,32 @@
 <script>
 	import Site from '../components/Site.svelte';
 	import sites from '../data/sites.json';
-	console.log(sites);
+	console.log(
+		'%ccy2.me',
+		'background-color: #A5C922; color: black; padding: 8px; border-radius: 6px; font-family: monospace; font-weight: 900;'
+	);
 </script>
 
 <svelte:head>
 	<title>Cy</title>
-	<meta name="description"
-		content="Hi, I'm Cy. This is my landing page where you can find all my web projects.">
-	<meta property="og:title" content="Cy">
-	<meta property="og:site_name" content="Cy's Portfolio">
-	<meta property="og:description"
-		content="Hi, I'm Cy. This is my landing page where you can find all my web projects.">
-	<meta property="og:image" content="https://cy2.me/c_general_192.png">
+	<meta
+		name="description"
+		content="Hi, I'm Cy. This is my landing page where you can find all my web projects."
+	/>
+	<meta property="og:title" content="Cy" />
+	<meta property="og:site_name" content="Cy's Portfolio" />
+	<meta
+		property="og:description"
+		content="Hi, I'm Cy. This is my landing page where you can find all my web projects."
+	/>
+	<meta property="og:image" content="https://cy2.me/c_general_192.png" />
 </svelte:head>
 
 <div class="container">
 	<div class="sites">
 		<div class="header vertiPanel">
 			<div class="horizPanel" style="gap: 16px;">
-				<img src="/c_general.svg" alt="" />
+				<img src="/c_general.svg" style="width: min(100px, 45%);" alt="" />
 				<div class="vertiPanel">
 					<h1>Hi, I'm Cy.</h1>
 					<p>And this is my landing page. It's nice to meet you!</p>
@@ -50,10 +57,13 @@
 			</div>
 		</div>
 		{#each Object.keys(sites) as site, index}
-			<Site site={{
-				title: site,
-				...sites[site]
-			}} {index} />
+			<Site
+				site={{
+					title: site,
+					...sites[site]
+				}}
+				{index}
+			/>
 		{/each}
 	</div>
 </div>
@@ -71,20 +81,25 @@
 		background: radial-gradient(#0008, #0000); */
 	}
 	.buttons {
-		display: grid;
+		display: flex;
+		justify-content: center;
+		// flex-wrap: wrap;
 		width: 100%;
 		gap: 8px;
-		grid-template-columns: repeat(3, 1fr);
+		// grid-template-columns: repeat(3, 1fr);
 		a {
 			padding: 12px;
 			border-radius: 8px;
 			border: 1px solid #282828;
 			text-decoration: none;
 			display: flex;
+			// flex-wrap: wrap;
+			// flex-direction: column;
 			align-items: center;
 			justify-content: center;
 			gap: 8px;
 			transition: 120ms;
+			flex: 1;
 			svg {
 				height: 1.5em;
 			}
@@ -94,9 +109,24 @@
 			}
 		}
 	}
+	@media screen and (max-width: 400px) {
+		.header {
+			padding: 24px;
+		}
+		// .buttons {
+		// 	flex-wrap: wrap;
+		// 	a {
+		// 		flex: unset;
+		// 	}
+		// }
+	}
+	@media screen and (max-width: 375px) {
+		.buttons > a {
+			flex-direction: column;
+		}
+	}
 	.sites {
 		display: grid;
-		/* auto fill columns */
-		grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+		grid-template-columns: repeat(auto-fit, minmax(min(400px, 100vw), 1fr));
 	}
 </style>
