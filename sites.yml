@@ -1,12 +1,12 @@
 sc4hfair:
   site: sc4hfair.vercel.app
   desc: The Somerset County 4-H Fair App, hoping to be deployed in summer 2022...
-1word:
-  site: 1word.cy2.me
-  desc: A one word typing test written in Vue
 odbyork:
   site: odbyork.org
   desc: A website for the Our Daily Bread soup kitchen in York, PA
+1word:
+  site: 1word.cy2.me
+  desc: A one word typing test written in Vue
 speedslope:
   site: speedslope.cy2.me
   desc: A minimalistic 3D slope game written in Unity
@@ -19,6 +19,9 @@ ti84:
 blackjack:
   site: blackjack.apcs2021.tk
   desc: A React Blackjack game written with my friend for my 2021 AP CS final project
+ytdl:
+  site: ytdl.cy2.me
+  desc: A frontend and API for the youtube_dl Python library, providing easy downloads
 poptrig:
   site: poptrig.cy2.me
   desc: A trig practice game to improve your trig consistency in Mr. Boop's AP Calc AB class.
@@ -31,9 +34,6 @@ apcs2021:
 nanote:
   site: nanote.cy2.me
   desc: A simple, stateless music server and mobile-ready client
-ytdl:
-  site: ytdl.cy2.me
-  desc: A frontend and API for the youtube_dl Python library, providing easy downloads
 ridgehacks:
   site: ridgehacks.us
   desc: The website for RidgeHacks 2022, my high school's hackathon
