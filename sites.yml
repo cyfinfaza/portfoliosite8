@@ -4,24 +4,27 @@ sc4hfair:
 1word:
   site: 1word.cy2.me
   desc: A one word typing test written in Vue
-ti84:
-  site: ti84.cy2.me
-  desc: An online TI-84 Plus CE emulator
+odbyork:
+  site: odbyork.org
+  desc: A website for the Our Daily Bread soup kitchen in York, PA
 speedslope:
   site: speedslope.cy2.me
   desc: A minimalistic 3D slope game written in Unity
-poptrig:
-  site: poptrig.cy2.me
-  desc: A trig practice game to improve your trig consistency in Mr. Boop's AP Calc AB class.
 browse:
   site: browse.cy2.me
   desc: An in-browser proxy for accessing blocked websites
-type:
-  site: type.cy2.me
-  desc: A typing test written in Svelte that pulls samples from oracle.cy2.me
+ti84:
+  site: ti84.cy2.me
+  desc: An online TI-84 Plus CE emulator
 blackjack:
   site: blackjack.apcs2021.tk
   desc: A React Blackjack game written with my friend for my 2021 AP CS final project
+poptrig:
+  site: poptrig.cy2.me
+  desc: A trig practice game to improve your trig consistency in Mr. Boop's AP Calc AB class.
+type:
+  site: type.cy2.me
+  desc: A typing test written in Svelte that pulls samples from oracle.cy2.me
 apcs2021:
   site: apcs2021.tk
   desc: A compilation of all the 2021 Ridge AP CS final projects
