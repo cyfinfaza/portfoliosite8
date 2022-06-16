@@ -29,7 +29,7 @@ type:
   site: type.cy2.me
   desc: A typing test written in Svelte that pulls samples from oracle.cy2.me
 apcs2021:
-  site: apcs2021.tk
+  site: apcs2021.cy2.me
   desc: A compilation of all the 2021 Ridge AP CS final projects
 nanote:
   site: nanote.cy2.me
