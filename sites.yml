@@ -4,9 +4,9 @@ sc4hfair:
 odbyork:
   site: odbyork.org
   desc: A website for the Our Daily Bread soup kitchen in York, PA
-1word:
-  site: 1word.cy2.me
-  desc: A one word typing test written in Vue
+ridgecompsci:
+  site: ridgecompsci.club
+  desc: The Ridge Comp Sci Club website
 speedslope:
   site: speedslope.cy2.me
   desc: A minimalistic 3D slope game written in Unity
@@ -15,16 +15,22 @@ browse:
   desc: An in-browser proxy for accessing blocked websites
 ti84:
   site: ti84.cy2.me
-  desc: An online TI-84 Plus CE emulator
+  desc: A repackaged TestNav TI-84 Plus CE emulator
 blackjack:
   site: blackjack.cy2.me
   desc: A React Blackjack game written with my friend for my 2021 AP CS final project
 ytdl:
   site: ytdl.cy2.me
   desc: A frontend and API for the youtube_dl Python library, providing easy downloads
+hat-draw:
+  site: hat-draw.cy2.me
+  desc: An 8x8 pixel canvas that uses MQTT to sync between clients and a Raspberry Pi Sense HAT
 poptrig:
   site: poptrig.cy2.me
   desc: A trig practice game to improve your trig consistency in Mr. Boop's AP Calc AB class.
+1word:
+  site: 1word.cy2.me
+  desc: A one word typing test written in Vue
 type:
   site: type.cy2.me
   desc: A typing test written in Svelte that pulls samples from oracle.cy2.me
@@ -37,21 +43,24 @@ nanote:
 ridgehacks:
   site: ridgehacks.us
   desc: The website for RidgeHacks 2022, my high school's hackathon
-catjam:
-  site: catjam-leaderboard.vercel.app
-  desc: The online leaderboard for a Unity game my friend made
-courses:
-  site: learn.cy2.me
-  desc: An unfinished platform for building web development courses
-hx:
-  site: hx.cy2.me
-  desc: A collection of random HTML experiments
-codetools:
-  site: codetools.cy2.me
-  desc: A coding challenge platform built for my AP CS teacher during COVID
 4hcomputers:
   site: 4hcomputers.club
   desc: The website for the 4-H Computer Club in Somerset County
+codetools:
+  site: codetools.cy2.me
+  desc: A coding challenge platform built for my AP CS teacher during COVID
+playtools:
+  site: playtools.cy2.me
+  desc: A video view tracking platform built for a couple of my teachers
+catjam:
+  site: catjam-leaderboard.vercel.app
+  desc: The online leaderboard for a Unity game my friend made
+hx:
+  site: hx.cy2.me
+  desc: A collection of random HTML experiments
+courses:
+  site: learn.cy2.me
+  desc: An unfinished platform for building web development courses
 anylyrics:
   site: anylyrics.cy2.me
   desc: An AI-powered web scraper for fetching song lyrics that runs on IBM Functions
@@ -61,9 +70,6 @@ connect4:
 oracle:
   site: oracle.cy2.me
   desc: A random message from the oracle (try "/api")
-playtools:
-  site: playtools.cy2.me
-  desc: A website that allows you to create share links and track watch time for YouTube videos
 portfoliosite6:
   site: ps6.cy2.me
   desc: The 2nd major iteration of my portfolio site (currently viewing the 3rd iteration)
