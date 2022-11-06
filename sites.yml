@@ -13,12 +13,15 @@ speedslope:
 browse:
   site: browse.cy2.me
   desc: An in-browser proxy for accessing blocked websites
-ti84:
-  site: ti84.cy2.me
-  desc: A repackaged TestNav TI-84 Plus CE emulator
 blackjack:
   site: blackjack.cy2.me
   desc: A React Blackjack game written with my friend for my 2021 AP CS final project
+miq:
+  site: miq.cy2.me
+  desc: Mic cue management and automation with OSC and sourcing from Google Sheets
+ti84:
+  site: ti84.cy2.me
+  desc: A repackaged TestNav TI-84 Plus CE emulator
 ytdl:
   site: ytdl.cy2.me
   desc: A frontend and API for the youtube_dl Python library, providing easy downloads
