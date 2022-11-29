@@ -72,4 +72,10 @@ oracle:
   desc: A random message from the oracle (try "/api")
 portfoliosite6:
   site: ps6.cy2.me
-  desc: The 2nd major iteration of my portfolio site (currently viewing the 3rd iteration)
+  desc: The 3nd major iteration of my portfolio site (currently viewing the 4th iteration)
+portfoliosite5:
+  site: ps5.cy2.me
+  desc: The 2nd major iteration of my portfolio site (currently viewing the 4th iteration)
+portfoliosite1:
+  site: ps1.cy2.me
+  desc: My very first portfolio site (currently viewing the 4th iteration)
