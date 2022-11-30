@@ -1,9 +1,18 @@
 <script>
 	export let site;
 	export let index;
+
+	import { perspectiveMode } from '../logic/stores';
 </script>
 
-<a class="site" style={`animation-delay: ${500 + index * 25}ms`} href={'https://' + site.site}>
+<a
+	class="site"
+	style:animation-delay="{500 + index * 25}ms"
+	style:transition-delay="{index * 2}ms"
+	href={'https://' + site.site}
+	style:transform={$perspectiveMode ? `translateZ(${Math.random() * 600 - 200}px)` : null}
+	class:perspectiveMode={$perspectiveMode}
+>
 	<img src={`https://sss2.cy2.me/${site.site}.png`} alt="" />
 	<div class="siteDescription">
 		<div class="iconLink">
@@ -40,13 +49,21 @@
 				opacity: 1;
 				transform: scale(1);
 			}
+			&.perspectiveMode {
+				opacity: 1;
+				z-index: 10;
+			}
+		}
+		transition: 240ms cubic-bezier(0.175, 0.885, 0.32, 1.1);
+		&.perspectiveMode {
+			opacity: 0.5;
 		}
 	}
 	.siteDescription {
 		width: 100%;
 		height: 100%;
 		box-sizing: border-box;
-		border-bottom: 0px solid #FFF;	
+		border-bottom: 0px solid #fff;
 		transition: 240ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
 		display: flex;
 		flex-direction: column;

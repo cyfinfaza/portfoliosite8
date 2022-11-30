@@ -1,10 +1,45 @@
 <script>
+	import { onMount } from 'svelte';
 	import Site from '../components/Site.svelte';
 	import sites from '../data/sites.json';
+	import { perspectiveMode } from '../logic/stores.js';
 	console.log(
 		'%ccy2.me',
 		'background-color: #A5C922; color: black; padding: 8px; border-radius: 6px; font-family: monospace; font-weight: 900;'
 	);
+
+	let clickTimes = 0;
+	$: if (clickTimes > 5) $perspectiveMode ^= true;
+
+	let scrollY = 0;
+	let mouseX = 0.5;
+	let mouseY = 0.5;
+	let asymMouseX = 0.5;
+	let asymMouseY = 0.5;
+
+	let lastTimestamp = 0;
+	function recalculateAsym(timestamp) {
+		const elapsed = timestamp - lastTimestamp;
+		// console.log(elapsed);
+		const scaleFactor = elapsed * 0.06;
+		const weight = Math.max(15 / scaleFactor, 1);
+		asymMouseX += (mouseX - asymMouseX) / weight;
+		asymMouseY += (mouseY - asymMouseY) / weight;
+		lastTimestamp = timestamp;
+		requestAnimationFrame(recalculateAsym);
+	}
+
+	onMount(() => {
+		scrollY = window.scrollY;
+		window.addEventListener('scroll', () => {
+			scrollY = window.scrollY;
+		});
+		window.addEventListener('mousemove', (e) => {
+			mouseX = e.clientX / window.innerWidth;
+			mouseY = e.clientY / window.innerHeight;
+		});
+		requestAnimationFrame(recalculateAsym);
+	});
 </script>
 
 <svelte:head>
@@ -22,11 +57,21 @@
 	<meta property="og:image" content="https://cy2.me/c_general_192.png" />
 </svelte:head>
 
-<div class="container">
+<div
+	class="container"
+	style:--scrollY="{scrollY}px"
+	style:--mouseX={asymMouseX}
+	style:--mouseY={asymMouseY}
+>
 	<div class="sites">
 		<div class="header vertiPanel">
 			<div class="horizPanel" style="gap: 16px;">
-				<img src="/c_general.svg" style="width: min(100px, 45%);" alt="" />
+				<img
+					src="/c_general.svg"
+					style="width: min(100px, 45%);"
+					alt=""
+					on:click={() => clickTimes++}
+				/>
 				<div class="vertiPanel">
 					<h1>Hi, I'm Cy.</h1>
 					<p>
@@ -82,10 +127,24 @@
 		justify-content: center;
 		gap: 24px;
 		padding: 32px;
+		aspect-ratio: 16/9;
+		overflow: hidden;
+		box-sizing: border-box;
 		/* position: sticky;
 		top: 0;
 		z-index: 20;
 		background: radial-gradient(#0008, #0000); */
+		img {
+			user-select: none;
+			transition: 200ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+			border-radius: 50%;
+			&:hover {
+				transform: rotate(-5deg);
+			}
+			&:active {
+				transform: rotate(5deg);
+			}
+		}
 	}
 	.buttons {
 		display: flex;
@@ -146,5 +205,8 @@
 	.sites {
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(min(400px, 100vw), 1fr));
+		perspective: 1000px;
+		perspective-origin: calc(100vw * var(--mouseX))
+			calc(calc(100vh * var(--mouseY)) + var(--scrollY));
 	}
 </style>
