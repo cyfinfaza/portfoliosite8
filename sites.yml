@@ -13,12 +13,12 @@ speedslope:
 browse:
   site: browse.cy2.me
   desc: An in-browser proxy for accessing blocked websites
+tetris:
+  site: tetris.cy2.me
+  desc: Tetris written from scratch in JavaScript (with hold, lookahead, SRS+, and sound effects)
 blackjack:
   site: blackjack.cy2.me
   desc: A React Blackjack game written with my friend for my 2021 AP CS final project
-miq:
-  site: miq.cy2.me
-  desc: Mic cue management and automation with OSC and sourcing from Google Sheets
 ti84:
   site: ti84.cy2.me
   desc: A repackaged TestNav TI-84 Plus CE emulator
@@ -31,6 +31,9 @@ hat-draw:
 poptrig:
   site: poptrig.cy2.me
   desc: A trig practice game to improve your trig consistency in Mr. Boop's AP Calc AB class.
+miq:
+  site: miq.cy2.me
+  desc: Mic cue management and automation with OSC and sourcing from Google Sheets
 1word:
   site: 1word.cy2.me
   desc: A one word typing test written in Vue
