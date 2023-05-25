@@ -13,6 +13,9 @@ speedslope:
 browse:
   site: browse.cy2.me
   desc: An in-browser proxy for accessing blocked websites
+makeawebsite:
+  site: makeawebsite.cy2.me
+  desc: An AI chat-based website generator.
 tetris:
   site: tetris.cy2.me
   desc: Tetris written from scratch in JavaScript (with hold, lookahead, SRS+, and sound effects)
