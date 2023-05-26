@@ -50,6 +50,9 @@ nanote:
   site: nanote.cy2.me
   desc: A simple, stateless music server and mobile-ready client
 ridgehacks2022:
+  site: 2023.ridgehacks.us
+  desc: The website for RidgeHacks 2023, my high school's hackathon
+ridgehacks2022:
   site: 2022.ridgehacks.us
   desc: The website for RidgeHacks 2022, my high school's hackathon
 4hcomputers:
