@@ -29,7 +29,10 @@
 		requestAnimationFrame(recalculateAsym);
 	}
 
-	onMount(() => {
+	let startedPerspectiveMode = false;
+
+	$: if ($perspectiveMode && !startedPerspectiveMode) {
+		startedPerspectiveMode = true;
 		scrollY = window.scrollY;
 		window.addEventListener('scroll', () => {
 			scrollY = window.scrollY;
@@ -39,7 +42,7 @@
 			mouseY = e.clientY / window.innerHeight;
 		});
 		requestAnimationFrame(recalculateAsym);
-	});
+	}
 </script>
 
 <svelte:head>
