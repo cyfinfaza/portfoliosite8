@@ -1,12 +1,9 @@
 sc4hfair:
   site: sc4hfair.app
-  desc: The 2022 Somerset County 4‑H Fair App, winner of the 2022 4‑H Fair Managers' Award
+  desc: The 2022‑2023 Somerset County 4‑H Fair App, winner of the 2022 4‑H Fair Managers' Award
 odbyork:
   site: odbyork.org
   desc: A website for the Our Daily Bread soup kitchen in York, PA
-ridgecompsci:
-  site: ridgecompsci.club
-  desc: The Ridge Comp Sci Club website
 speedslope:
   site: speedslope.cy2.me
   desc: A minimalistic 3D slope game written in Unity
@@ -16,6 +13,9 @@ browse:
 makeawebsite:
   site: makeawebsite.cy2.me
   desc: An AI chat-based website generator.
+miq:
+  site: miq.cy2.me
+  desc: Mic cue management and automation with OSC and sourcing from Google Sheets
 tetris:
   site: tetris.cy2.me
   desc: Tetris written from scratch in JavaScript (with hold, lookahead, SRS+, and sound effects)
@@ -25,6 +25,9 @@ blackjack:
 ti84:
   site: ti84.cy2.me
   desc: A repackaged TestNav TI-84 Plus CE emulator
+ridgecompsci:
+  site: ridgecompsci.club
+  desc: The Ridge Comp Sci Club website
 ytdl:
   site: ytdl.cy2.me
   desc: A frontend and API for the youtube_dl Python library, providing easy downloads
@@ -34,9 +37,6 @@ hat-draw:
 poptrig:
   site: poptrig.cy2.me
   desc: A trig practice game to improve your trig consistency in Mr. Boop's AP Calc AB class.
-miq:
-  site: miq.cy2.me
-  desc: Mic cue management and automation with OSC and sourcing from Google Sheets
 1word:
   site: 1word.cy2.me
   desc: A one word typing test written in Vue
