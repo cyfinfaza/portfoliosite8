@@ -4,7 +4,7 @@
 	align-items: center;
 }
 
-.horizPanel>* {
+.horizPanel > * {
 	margin: 0;
 }
 
@@ -14,7 +14,7 @@
 	gap: 8px;
 }
 
-.vertiPanel>* {
+.vertiPanel > * {
 	margin: 0;
 }
 
@@ -22,3 +22,8 @@
 	-webkit-tap-highlight-color: #fff6;
 	word-wrap: break-word;
 }
+
+/* .perspectiveMode {
+	background-image: radial-gradient(#151a05 20%, transparent 80%);
+	background-size: 60px 60px;
+} */
