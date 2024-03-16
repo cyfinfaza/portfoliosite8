@@ -130,7 +130,7 @@
 		justify-content: center;
 		gap: 24px;
 		padding: 32px;
-		aspect-ratio: 16/9;
+		aspect-ratio: unset;
 		overflow: hidden;
 		box-sizing: border-box;
 		/* position: sticky;
@@ -181,6 +181,7 @@
 	@media screen and (max-width: 400px) {
 		.header {
 			padding: 24px;
+			min-height: 220px;
 		}
 		// .buttons {
 		// 	flex-wrap: wrap;
