@@ -13,7 +13,7 @@
 	style:transform={$perspectiveMode ? `translateZ(${Math.random() * 600 - 200}px)` : null}
 	class:perspectiveMode={$perspectiveMode}
 >
-	<img src={`https://sss2.cy2.me/${site.site}.png`} alt="" />
+	<img src={`/screenshots/${site.site}.png`} alt="" />
 	<div class="siteDescription">
 		<div class="iconLink">
 			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">

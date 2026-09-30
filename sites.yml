@@ -1,30 +1,37 @@
 sc4hfair:
   site: sc4hfair.app
-  desc: The 2022‑2023 Somerset County 4‑H Fair App, winner of the 2022 4‑H Fair Managers' Award
+  desc: The 2022‑2026 Somerset County 4‑H Fair App, winner of the 2022 4‑H Fair Managers' Award
 odbyork:
   site: odbyork.org
   desc: A website for the Our Daily Bread soup kitchen in York, PA
 speedslope:
   site: speedslope.cy2.me
   desc: A minimalistic 3D slope game written in Unity
-browse:
-  site: browse.cy2.me
-  desc: An in-browser proxy for accessing blocked websites
+  screenshot_load_delay: 15
+  screenshot_keep_foreground: true
+ti84:
+  site: ti84.cy2.me
+  desc: A repackaged TestNav TI-84 Plus CE emulator
+tetris:
+  site: tetris.cy2.me
+  desc: Tetris written from scratch in JavaScript (with hold, lookahead, SRS+, and sound effects)
+poptrig:
+  site: poptrig.cy2.me
+  desc: A trig practice game to improve your trig consistency in Mr. Boop's AP Calc AB class
+rb:
+  site: rb.cy2.me
+  desc: Another Rutgers bus tracking app you might like better than the others
+  screenshot_url: https://rb.cy2.me/?no-onboarding
+  screenshot_load_delay: 5
 makeawebsite:
   site: makeawebsite.cy2.me
   desc: An AI chat-based website generator
 miq:
   site: miq.cy2.me
   desc: Mic cue management and automation with OSC and sourcing from Google Sheets
-tetris:
-  site: tetris.cy2.me
-  desc: Tetris written from scratch in JavaScript (with hold, lookahead, SRS+, and sound effects)
 blackjack:
   site: blackjack.cy2.me
   desc: A React Blackjack game written with my friend for my 2021 AP CS final project
-ti84:
-  site: ti84.cy2.me
-  desc: A repackaged TestNav TI-84 Plus CE emulator
 ru-bus-nerd:
   site: rutgersbusnerd.cy2.me
   desc: Know basically anything about any Rutgers bus - powered by the CPTDB Wiki
@@ -37,15 +44,12 @@ ytdl:
 hat-draw:
   site: hat-draw.cy2.me
   desc: An 8x8 pixel canvas that uses MQTT to sync between clients and a Raspberry Pi Sense HAT
-poptrig:
-  site: poptrig.cy2.me
-  desc: A trig practice game to improve your trig consistency in Mr. Boop's AP Calc AB class
 1word:
   site: 1word.cy2.me
   desc: A one word typing test written in Vue
-type:
-  site: type.cy2.me
-  desc: A typing test written in Svelte that pulls samples from oracle.cy2.me
+# type:
+#   site: type.cy2.me
+#   desc: A typing test written in Svelte that pulls samples from oracle.cy2.me
 apcs2021:
   site: apcs2021.cy2.me
   desc: A compilation of all the 2021 Ridge AP CS final projects
@@ -76,15 +80,18 @@ hx:
 courses:
   site: learn.cy2.me
   desc: An unfinished platform for building web development courses
-anylyrics:
-  site: anylyrics.cy2.me
-  desc: An AI-powered web scraper for fetching song lyrics that runs on IBM Functions
-connect4:
-  site: connect4.cy2.me
-  desc: A buggy Connect 4 game I built to learn about WebSockets
-oracle:
-  site: oracle.cy2.me
-  desc: A random message from the oracle (try "/api")
+browse:
+  site: browse.cy2.me
+  desc: An in-browser proxy for accessing blocked websites
+# anylyrics:
+#   site: anylyrics.cy2.me
+#   desc: An AI-powered web scraper for fetching song lyrics that runs on IBM Functions
+# connect4:
+#   site: connect4.cy2.me
+#   desc: A buggy Connect 4 game I built to learn about WebSockets
+# oracle:
+#   site: oracle.cy2.me
+#   desc: A random message from the oracle (try "/api")
 portfoliosite6:
   site: ps6.cy2.me
   desc: The 3nd major iteration of my portfolio site (currently viewing the 4th iteration)

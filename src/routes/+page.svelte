@@ -47,16 +47,10 @@
 
 <svelte:head>
 	<title>Cy</title>
-	<meta
-		name="description"
-		content="Hi, I'm Cy. This is my landing page where you can find all my web projects."
-	/>
+	<meta name="description" content="Hi, I'm Cy. This is my web project portfolio." />
 	<meta property="og:title" content="Cy" />
 	<meta property="og:site_name" content="Cy's Portfolio" />
-	<meta
-		property="og:description"
-		content="Hi, I'm Cy. This is my landing page where you can find all my web projects."
-	/>
+	<meta property="og:description" content="Hi, I'm Cy. This is my web project portfolio." />
 	<meta property="og:image" content="https://cy2.me/c_general_192.png" />
 </svelte:head>
 
@@ -78,7 +72,7 @@
 				<div class="vertiPanel">
 					<h1>Hi, I'm Cy.</h1>
 					<p>
-						It's nice to meet you! Check out some of my projects&nbsp;<span class="gt-800px"
+						It's nice to meet you! Check out some of my web projects&nbsp;<span class="gt-800px"
 							>&rarr;</span
 						><span class="lt-800px">&darr;</span>
 					</p>
