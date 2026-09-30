@@ -1,0 +1,21 @@
+{
+	"$schema": "https://openapi.vercel.sh/vercel.json",
+	"redirects": [
+		{
+			"source": "/pcb/rsc-lv3-switchsense-r0",
+			"destination": "https://github.com/cyfinfaza/RSC-LV3-SwitchSense"
+		},
+		{
+			"source": "/pcb/rsc-lv3-lvbps-r0",
+			"destination": "https://github.com/cyfinfaza/RSC-LV3-LVBPS"
+		},
+		{
+			"source": "/pcb/rsc-lv3-hvbps-r0",
+			"destination": "https://github.com/cyfinfaza/RSC-LV3-HVBPS"
+		},
+		{
+			"source": "/pcb/rsc-mbs-backplane-14s-lite-r0",
+			"destination": "https://github.com/cyfinfaza/RSC-MBS-Backplane-28S-Lite"
+		}
+	]
+}
